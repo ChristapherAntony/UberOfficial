@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+
+.logo{
+    float: left;
+    padding-left: 80px;
+    padding-top: 5px;
+    
+}
+
+nav{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: black;
+
+}
+
+
+
+.nav-links1{
+
+    margin-top: 20px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+
+}
+
+.nav-links1 ul li{
+	list-style: none;
+	display: inline-block;
+    
+   
+	
+}
+.nav-links1 ul li a{
+	color: white;
+	text-decoration: none;
+    padding: 0px 12px;
+	
+ 
+	}
+
+    .nav-links2{
+
+        font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: right;
+        padding-right: 84px;
+        padding-top: 10px;
+       
+    
+        
+    
+    }
+    
+    .nav-links2 ul li{
+        list-style: none;
+        display: inline-block;
+        
+       
+        
+    }
+    .nav-links2 ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 0px 12px;
+        
+     
+        }
+
+.button1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 7px 12px;
+}
+    
+.section1{
+
+    background-image: url(images/home1.png);
+    min-height: 86vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container1{
+   
+    
+    height: 68vh;
+    width: 576px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 155px;
+    background-color: white;
+   }
+
+   .containerA{
+
+    height: 17vh;
+    width: 288px;
+    float: left;
+    background-color: #F6F6F6;
+   }
+
+   .containerB{
+   
+    
+    height: 17vh;
+    width: 288px;
+    float: left;
+    background-color: #F6F6F6;
+   }
+
+   .fa-car{
+    margin-top: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 122px;
+   }
+
+   .fa-signal{
+    margin-top: 14px;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 122px;
+   }
+
+.cc{
+    height: 48vh;
+    float: left;
+    width: 576px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+   .cc h1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    line-height: 64px;
+    font-style: normal;
+    font-weight: 500;
+
+   }
+   .input1{
+    margin-top: 40px;
+    height: 52px;
+    width: 480px;
+    border: 0;
+    font-size: 18px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400; 
+   }
+
+   .input2{
+    height: 52px;
+    width: 480px;
+    margin-top: 8px;
+    border: 0;
+    font-size: 18px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400; 
+   }
+
+
+
+   .bb{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .bb1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    background-color: black;
+    margin-right: 24px;
+    margin-top: 40px;
+    padding: 14px 30px;
+    border-radius: 8px;
+    border: 0;
+    
+   }
+
+   .bb2{
+    float: left;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    background-color: #F6F6F6;
+    margin-right: 24px;
+    margin-top: 41px;
+    padding: 14px 30px;
+    border-radius: 8px;
+    border: 0;
+   
+   }
+
+   .conttext{
+    padding-left: 117px;
+    padding-top: 25px;
+   }
+
+   .conttext1{
+    padding-left: 85px;
+    padding-top: 25px;
+   }
+
+
+.section2{
+
+    background-image: url(images/section2.png);
+   height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.text1{
+
+display: flex;
+flex-direction: column;
+width: 600px;
+}
+
+
+.section2 h1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    color: black;
+    float: left;
+    padding-left: 155px;
+    padding-top: 70px;
+}
+
+.section2 h5{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+    padding-left: 155px;
+    padding-top: 30px;
+    
+}
+
+.button2{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 12px 25px;
+    background-color: black;
+    color: #fff;
+    margin-left: 155px;
+    margin-top: 30px;
+    width: 120px;
+}
+
+.section3{
+    height: 80vh;
+    width: 100%;
+}
+
+.section3{
+    padding-top: 50px;
+    
+}
+
+.textbox2{
+    width: 50%;
+    height: 15%;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 155px;
+
+}
+
+.outerbox{
+padding-top: 30px;
+padding-left: 20px;
+width: 100%;
+height: 500px;
+border-color: black;
+border-radius: 3px;
+}
+
+.first{
+    width: 40%;
+    height: 40%;
+    border-color: black;
+    border-radius: 3px;
+    float: left;
+    margin-left: 155px;
+}
+
+.img1{
+    width: 150px;
+    float: left;
+}
+
+.imgg{
+    float: left;
+    width: 30%;
+}
+
+.second{
+    width: 40%;
+    height: 40%;
+    border-color: black;
+    border-radius: 3px;
+    float: left;
+    
+}
+
+.third{
+    width: 40%;
+    height: 30%;
+    border-color: black;
+    border-radius: 3px;
+    float: left;
+    margin-left: 155px;
+
+}
+
+.fourth{
+    width: 40%;
+    height: 30%;
+    border-color: black;
+    border-radius: 3px;
+    float: left;
+    
+}
+.t1{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    width: 60%;
+}
+
+.t1 h1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.t1 p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.section4{
+    height: 100vh;
+    width: 100%;
+
+}
+
+.img4{
+    float: left;
+    padding-left: 155px;
+    
+
+}
+.img5{
+    float: left;
+    padding-left: 35px;
+
+}
+
+.img44{
+    width: 558px;
+    height: 372px;
+}
+
+.text41{
+    float: left;
+    padding-left: 155px;
+    width: 40%;
+}
+
+.text42{
+    float: left;
+    width: 40%;
+}
+
+.text41 h1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 24px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+.text41 p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-top: 16px;
+}
+
+.text42 h1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 24px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 500;
+    padding-top: 16px;
+    padding-left: 8px;
+}
+
+.text42 p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 400;
+    padding-right: 30px;
+    padding-left: 8px;
+    padding-top: 16px;
+}
+
+.text43 h2{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 32px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 400;
+    float: left;
+    padding-left: 155px;
+    padding-top: 37px;
+}
+
+.text44 h2{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 32px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 400;
+    float: left;
+    padding-top: 37px;
+    padding-left: 25px;
+    text-decoration: underline;
+}
+
+.text45 h2{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 32px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 400;
+    float: left;
+    padding-top: 37px;
+    padding-left: 117px;
+    text-decoration: underline;
+}
+
+.section5{
+    float: left;
+    padding-top: 50px;
+    padding-left: 155px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.text50{
+    float: left;
+    padding-right: 150px;
+    width: 20%;
+}
+
+.text50 h1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 24px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 500;
+    
+
+}
+
+.text50 p1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 400;
+    
+    
+}
+
+.p2{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-style: normal;
+    color: #333333;
+    font-weight: 400;
+    padding-top: 40px;
+    text-decoration: underline;
+    
+}
+
+.section6{
+    float: left;
+    height: 45vh;
+    width: 100%;
+    padding-top: 60px;
+    background-color: #F6F6F6;
+    
+}
+
+.lastlogo1{
+    float: left;
+    margin-left: 155px;
+    width: 558px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 20px;
+    
+}
+
+.lastlogo2{
+    float: left;
+    margin-left: 38px;
+    width: 558px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 20px;
+    
+}
+
+.llimg{
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-top: 27px;
+    padding-left: 27px;
+}
+
+.lastlogo1 h1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    float: left;
+    padding-top: 86px;
+   
+}
+.lastlogo2 h1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    float: left;
+    padding-top: 86px;
+   
+}
+
+.llh1{
+    padding-left: 20px;
+   
+}
+
+.section7{
+    height: 19vh;
+    width: 100%;
+    background-color: white;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-left: 155px;
+}
+
+.fa-arrow-right {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 40px;
+    padding-right: 60px;
+}
+
+.textbox3 {
+    width: 35%;
+    height: 63%;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    border-bottom: 1px solid;
+
+}
+
+.section8{
+    height: 113vh;
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+
+.foothead{
+    float: left;
+    padding-left: 155px;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.hb1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 112px;
+    font-weight: 400;
+    font-style: normal;
+}
+.hb2{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footmain{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+
+.footmain h1{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.footmain li{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 43px;
+    font-weight: 500;
+    color: #afafaf;
+    font-style: normal;
+    list-style: none;
+}
+
+.f1{
+    padding-left: 180px;
+}
+
+.sym{
+    width: 40%;
+    float: left;
+}
+
+.sym2{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding-top: 50px;
+}
+h4{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    font-style: normal;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
